@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	div {
+	background-color: #f2f2f2;
+	width: 600px;
+	border-radius: 2px;
+  	padding: 20px;
+	margin: 10px;
+}
+
+	input[type=text], select, textarea {
+	width: 100%;
+	padding: 10px 20px;
+	display: inline-block;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+	.button {
+	background-color: #00b8e6;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px 4px;
+	cursor: pointer;
+}
+	h2:after {content: ' \002A';color: #ff3300
+}
+
+</style>
+</head>
+<body>
+<center>
+<div>
+<form action="/action_page.php">
+	<label for="yourname"><h2>Your name</h2></label>
+	<input type="text" id="yourname" name="yourname">
+	<label for="email"><h2>Your email adress</h2></label>
+	<input type="text"id="email" name="email">
+	<label for="subject"><h2>Subject</h2></label>
+	<input type="text" id="subject" name="subject">
+	<label for="message"><h2>Message</h2></label>
+	<textarea id="Message" name="Message" style="height:300px"></textarea>
+	<br><a href="#" class="button">Send message</a>
+	<a href="#" class="button">Preview</a>
+</form>
+</div>
+</center>
+</body>
+</html>
